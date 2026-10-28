@@ -46,7 +46,10 @@ class track_garmin_watchfaceView extends WatchUi.WatchFace {
     private var _timeY as Number = 0;
     private var _splitX as Number = 0;
     private var _secWidth as Number = 0;
-    private var _timeHeight as Number = 0;
+    // Half-height of the seconds repaint area. MIP display cost grows with the
+    // number of rows refreshed, so this hugs the digit glyphs (about half the
+    // font's line height) instead of using the full line height.
+    private var _secHalfHeight as Number = 0;
 
     // MIP devices (fenix 6X) keep seconds running in low power via onPartialUpdate().
     // _buffer caches the background and track so each partial update only has to
@@ -55,7 +58,14 @@ class track_garmin_watchfaceView extends WatchUi.WatchFace {
     private var _buffer as BufferedBitmap?;
     private var _bufferReady as Boolean = false;
     private var _partialAllowed as Boolean = false;
-    private var _lastDot as [Float, Float]?;
+
+    // Dot positions for each second, sizes and colour, precomputed so per-second
+    // updates stay cheap
+    private var _dotX as Array<Number> = [] as Array<Number>;
+    private var _dotY as Array<Number> = [] as Array<Number>;
+    private var _dotOuter as Number = 0;
+    private var _dotInner as Number = 0;
+    private var _dotColor as Number = Graphics.COLOR_ORANGE;
 
     function initialize() {
         WatchFace.initialize();
@@ -70,6 +80,16 @@ class track_garmin_watchfaceView extends WatchUi.WatchFace {
         buildTrack(width, height);
         loadTimeFont(dc);
 
+        _dotOuter = scaled(14);
+        _dotInner = scaled(11);
+        _dotX = new Array<Number>[60];
+        _dotY = new Array<Number>[60];
+        for (var sec = 0; sec < 60; sec++) {
+            var pos = positionAt(sec / 60.0);
+            _dotX[sec] = (pos[0] + 0.5).toNumber();
+            _dotY[sec] = (pos[1] + 0.5).toNumber();
+        }
+
         var fullWidth = dc.getTextWidthInPixels("00:00:00", _timeFont);
         _timeY = (height * 0.24).toNumber();
         _splitX = width / 2 - fullWidth / 2 + dc.getTextWidthInPixels("00:00:", _timeFont);
@@ -79,7 +99,7 @@ class track_garmin_watchfaceView extends WatchUi.WatchFace {
             if (w > digitWidth) { digitWidth = w; }
         }
         _secWidth = digitWidth * 2 + 2;
-        _timeHeight = Graphics.getFontHeight(_timeFont);
+        _secHalfHeight = (Graphics.getFontHeight(_timeFont) * 0.27).toNumber() + 1;
 
         // AMOLED devices never get partial updates (and can't afford a full-screen buffer)
         if ((WatchUi.WatchFace has :onPartialUpdate) && !System.getDeviceSettings().requiresBurnInProtection) {
@@ -111,6 +131,7 @@ class track_garmin_watchfaceView extends WatchUi.WatchFace {
         var width = dc.getWidth();
         var height = dc.getHeight();
         dc.clearClip();
+        _dotColor = Application.Properties.getValue("DotColor") as Number;
 
         if (!_isAwake && System.getDeviceSettings().requiresBurnInProtection) {
             // AMOLED always-on mode: only a dim time, shifted every minute to avoid burn-in
@@ -150,38 +171,26 @@ class track_garmin_watchfaceView extends WatchUi.WatchFace {
 
         if (showSeconds) {
             drawSeconds(dc, clockTime.sec);
-            var pos = positionAt(clockTime.sec / 60.0);
-            drawDot(dc, pos);
-            _lastDot = pos;
+        }
+        // The dot only moves while awake (see onPartialUpdate()), so hide it in low power
+        if (_isAwake) {
+            drawDot(dc, clockTime.sec);
         }
     }
 
-    // Low-power update once a second (MIP devices). Must stay within the power
-    // budget, so only the seconds digits and the old/new dot area are repainted.
+    // Low-power update once a second (MIP devices), limited to 30 ms on average.
+    // Only the seconds digits are repainted: the display refreshes one band of
+    // rows spanning everything drawn, so also moving the dot (far below the time)
+    // would refresh most of the screen and exceed the budget (~33 ms measured,
+    // vs ~15 ms for the seconds alone).
     function onPartialUpdate(dc as Dc) as Void {
         var buffer = _buffer;
         if (!_partialAllowed || buffer == null) {
             return;
         }
-        var sec = System.getClockTime().sec;
-
-        dc.setClip(_splitX, _timeY - _timeHeight / 2, _secWidth, _timeHeight);
+        dc.setClip(_splitX, _timeY - _secHalfHeight, _secWidth, _secHalfHeight * 2);
         dc.drawBitmap(0, 0, buffer);
-        drawSeconds(dc, sec);
-
-        // One clip covering the old and new dot, so erasing one can't clip the other
-        var pos = positionAt(sec / 60.0);
-        var last = _lastDot != null ? _lastDot : pos;
-        var r = scaled(10) + 1;
-        var left = (pos[0] < last[0] ? pos[0] : last[0]).toNumber() - r;
-        var top = (pos[1] < last[1] ? pos[1] : last[1]).toNumber() - r;
-        var right = (pos[0] > last[0] ? pos[0] : last[0]).toNumber() + r;
-        var bottom = (pos[1] > last[1] ? pos[1] : last[1]).toNumber() + r;
-        dc.setClip(left, top, right - left + 1, bottom - top + 1);
-        dc.drawBitmap(0, 0, buffer);
-        drawDot(dc, pos);
-        _lastDot = pos;
-
+        drawSeconds(dc, System.getClockTime().sec);
         dc.clearClip();
     }
 
@@ -224,11 +233,11 @@ class track_garmin_watchfaceView extends WatchUi.WatchFace {
             Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER);
     }
 
-    private function drawDot(dc as Dc, pos as [Float, Float]) as Void {
+    private function drawDot(dc as Dc, sec as Number) as Void {
         dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT);
-        dc.fillCircle(pos[0], pos[1], scaled(10));
-        dc.setColor(Application.Properties.getValue("ForegroundColor") as Number, Graphics.COLOR_TRANSPARENT);
-        dc.fillCircle(pos[0], pos[1], scaled(7));
+        dc.fillCircle(_dotX[sec], _dotY[sec], _dotOuter);
+        dc.setColor(_dotColor, Graphics.COLOR_TRANSPARENT);
+        dc.fillCircle(_dotX[sec], _dotY[sec], _dotInner);
     }
 
     // Pick the largest bold font where HH:MM:SS fits the top of the screen

@@ -1,6 +1,6 @@
 # COTA Watch Face
 
-A Garmin Connect IQ watch face showing the Circuit of the Americas track map. A dot laps the circuit once a minute as the seconds indicator, and the time is shown in 24h `HH:MM:SS` on a carbon fiber background.
+A Garmin Connect IQ watch face showing the Circuit of the Americas track map. An orange dot laps the circuit once a minute as the seconds indicator, and the time is shown in 24h `HH:MM:SS` on a carbon fiber background.
 
 <img src="cotawatchface.png" alt="Watch face on a fenix 6X in the simulator" width="320">
 

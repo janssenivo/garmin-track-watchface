@@ -2,11 +2,12 @@
 
     <string id="AppName">track-garmin-watchface</string>
 
-    <string id="ForegroundColorTitle">Foreground Color</string>
+    <string id="DotColorTitle">Dot Color</string>
 
     <string id="ColorBlack">Black</string>
     <string id="ColorWhite">White</string>
     <string id="ColorBlue">Blue</string>
     <string id="ColorRed">Red</string>
+    <string id="ColorOrange">Orange</string>
 
 </strings>
