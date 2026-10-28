@@ -1,0 +1,9 @@
+<drawables xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+    <!-- Two-colour palette keeps the bitmap small (98 KB watch face memory limit) -->
+    <bitmap id="CarbonFiber" filename="carbon.png" dithering="none">
+        <palette>
+            <color>000000</color>
+            <color>555555</color>
+        </palette>
+    </bitmap>
+</drawables>
