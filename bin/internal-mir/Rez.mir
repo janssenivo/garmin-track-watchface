@@ -1,0 +1,1711 @@
+[ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [WatchUi,2,13,20]; ]
+using Toybox.WatchUi;
+[ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [WatchUi,3,13,20]; @symbol_usingAlias = [Ui,3,24,26]; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 4; @symbol_usingdef<0> = [Toybox,4,6,12]; @symbol_usingdef<1> = [Graphics,4,13,21]; ]
+using Toybox.Graphics;
+[ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 5; @symbol_usingdef<0> = [Toybox,5,6,12]; @symbol_usingdef<1> = [Graphics,5,13,21]; @symbol_usingAlias = [Gfx,5,25,28]; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 7; @symbol_moduledef = [Rez,7,7,10]; ]
+module Rez {
+    [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 8; @symbol_moduledef = [Drawables,8,11,20]; ]
+    module Drawables {
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 8; ]
+        <init> {
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 9; @position = 27; initialized = true; @symbol_vardef = [LauncherIcon,9,27,39]; @symbol_type<0> = [ResourceId,9,43,53]; ]
+        var LauncherIcon as ResourceId;
+    }
+    [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 12; @symbol_moduledef = [Layouts,12,11,18]; ]
+    module Layouts {
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 12; ]
+        <init> {
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 13; @symbol_functiondef = [WatchFace,13,17,26]; @symbol_param<0> = [dc,13,27,29]; @symbol_param<0>_type<0> = [Graphics,13,33,41]; @symbol_param<0>_type<1> = [Dc,13,42,44]; @symbol_return<0> = [Array,13,49,54]; @symbol_return<1> = [WatchUi,13,55,62]; @symbol_return<2> = [Drawable,13,63,71]; ]
+        function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+_Users_jansseni_amazon_code_garmin_track_garmin_watchface_bin_gen_006_B4536_00_source_Rez_mcgen_13_73_19_8_start:
+[ "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen" 14 12 ]
+            [ "_Users_jansseni_amazon_code_garmin_track_garmin_watchface_bin_gen_006_B4536_00_source_Rez_mcgen_13_73_19_8_start" "_Users_jansseni_amazon_code_garmin_track_garmin_watchface_bin_gen_006_B4536_00_source_Rez_mcgen_13_73_19_8_stop" ]
+            %rez_cmp_local_custom_drawable_11939594661139614796.1 = local;
+            symbol [ rez_cmp_local_custom_drawable_11939594661139614796 %rez_cmp_local_custom_drawable_11939594661139614796.1 14 16 66 ];
+            symbol [ Background %tmp.4 14 73 83 ];
+            %tmp.4 = getv ? :Background;
+            %tmp.1 = newc %tmp.4 ();
+            lputv %rez_cmp_local_custom_drawable_11939594661139614796.1 %tmp.1;
+            symbol [ rez_cmp_local_custom_drawable_11939594661139614796 %rez_cmp_local_custom_drawable_11939594661139614796.1 14 16 66 ];
+[ "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen" 16 12 ]
+            [ "_Users_jansseni_amazon_code_garmin_track_garmin_watchface_bin_gen_006_B4536_00_source_Rez_mcgen_13_73_19_8_start" "_Users_jansseni_amazon_code_garmin_track_garmin_watchface_bin_gen_006_B4536_00_source_Rez_mcgen_13_73_19_8_stop" ]
+            %rez_cmp_local_text_TimeLabel.2 = local;
+            symbol [ rez_cmp_local_text_TimeLabel %rez_cmp_local_text_TimeLabel.2 16 16 44 ];
+            symbol [ WatchUi %tmp.7 16 51 58 ];
+            %tmp.7 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.8 16 59 63 ];
+            %tmp.8 = getv function ? %tmp.7 :Text;
+            %tmp.9 = newd 6;
+            %tmp.11 = const :identifier;
+            symbol [ identifier %tmp.11 16 66 76 const ];
+            %tmp.12 = "TimeLabel";
+            %tmp.13 = dup %tmp.9;
+            %tmp.14 = aputv %tmp.13 %tmp.11 %tmp.12;
+            %tmp.16 = const :color;
+            symbol [ color %tmp.16 16 92 97 const ];
+            symbol [ Graphics %tmp.17 16 99 107 ];
+            %tmp.17 = getm $.Toybox.Graphics;
+            symbol [ COLOR_BLUE %tmp.18 16 108 118 ];
+            %tmp.18 = getv %tmp.17 :COLOR_BLUE;
+            %tmp.19 = dup %tmp.14;
+            %tmp.20 = aputv %tmp.19 %tmp.16 %tmp.18;
+            %tmp.22 = const :locX;
+            symbol [ locX %tmp.22 16 121 125 const ];
+            %tmp.23 = lgetv %dc;
+            symbol [ dc %tmp.23 16 128 130 ];
+            symbol [ getWidth %tmp.24 16 131 139 ];
+            %tmp.24 = getv function %tmp.23 :getWidth;
+            %tmp.25 = invoke %tmp.23 %tmp.24();
+            %tmp.26 = 0.5;
+            %tmp.27 = mul %tmp.25 %tmp.26;
+            %tmp.28 = dup %tmp.20;
+            %tmp.29 = aputv %tmp.28 %tmp.22 %tmp.27;
+            %tmp.31 = const :locY;
+            symbol [ locY %tmp.31 16 151 155 const ];
+            %tmp.32 = lgetv %dc;
+            symbol [ dc %tmp.32 16 159 161 ];
+            symbol [ getHeight %tmp.33 16 162 171 ];
+            %tmp.33 = getv function %tmp.32 :getHeight;
+            %tmp.34 = invoke %tmp.32 %tmp.33();
+            %tmp.35 = lgetv %dc;
+            symbol [ dc %tmp.35 16 176 178 ];
+            symbol [ getFontHeight %tmp.36 16 179 192 ];
+            %tmp.36 = getv function %tmp.35 :getFontHeight;
+            symbol [ Graphics %tmp.37 16 193 201 ];
+            %tmp.37 = getm $.Toybox.Graphics;
+            symbol [ FONT_LARGE %tmp.38 16 202 212 ];
+            %tmp.38 = getv %tmp.37 :FONT_LARGE;
+            %tmp.39 = invoke %tmp.35 %tmp.36(%tmp.38);
+            %tmp.40 = sub %tmp.34 %tmp.39;
+            %tmp.41 = 0.5;
+            %tmp.42 = mul %tmp.40 %tmp.41;
+            %tmp.43 = dup %tmp.29;
+            %tmp.44 = aputv %tmp.43 %tmp.31 %tmp.42;
+            %tmp.46 = const :justification;
+            symbol [ justification %tmp.46 16 224 237 const ];
+            symbol [ Graphics %tmp.47 16 239 247 ];
+            %tmp.47 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_CENTER %tmp.48 16 248 267 ];
+            %tmp.48 = getv %tmp.47 :TEXT_JUSTIFY_CENTER;
+            %tmp.49 = dup %tmp.44;
+            %tmp.50 = aputv %tmp.49 %tmp.46 %tmp.48;
+            %tmp.52 = const :font;
+            symbol [ font %tmp.52 16 270 274 const ];
+            symbol [ Graphics %tmp.53 16 276 284 ];
+            %tmp.53 = getm $.Toybox.Graphics;
+            symbol [ FONT_LARGE %tmp.54 16 285 295 ];
+            %tmp.54 = getv %tmp.53 :FONT_LARGE;
+            %tmp.55 = dup %tmp.50;
+            %tmp.56 = aputv %tmp.55 %tmp.52 %tmp.54;
+            %tmp.5 = newc %tmp.8 (%tmp.56);
+            lputv %rez_cmp_local_text_TimeLabel.2 %tmp.5;
+            symbol [ rez_cmp_local_text_TimeLabel %rez_cmp_local_text_TimeLabel.2 16 16 44 ];
+[ "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen" 18 12 ]
+            %tmp.57 = newa 2 Array<WatchUi.Drawable>;
+            symbol [ Array %tmp.57 18 105 110 ];
+            symbol [ WatchUi %tmp.57 18 111 118 ];
+            symbol [ Drawable %tmp.57 18 119 127 ];
+            %tmp.58 = lgetv %rez_cmp_local_custom_drawable_11939594661139614796.1;
+            symbol [ rez_cmp_local_custom_drawable_11939594661139614796 %tmp.58 18 20 70 ];
+            %tmp.59 = dup %tmp.57;
+            %tmp.60 = aputv %tmp.59 0 %tmp.58;
+            %tmp.61 = lgetv %rez_cmp_local_text_TimeLabel.2;
+            symbol [ rez_cmp_local_text_TimeLabel %tmp.61 18 72 100 ];
+            %tmp.62 = dup %tmp.60;
+            %tmp.63 = aputv %tmp.62 1 %tmp.61;
+            ret %tmp.63;
+_Users_jansseni_amazon_code_garmin_track_garmin_watchface_bin_gen_006_B4536_00_source_Rez_mcgen_13_73_19_8_stop:
+        }
+    }
+    [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 22; @symbol_moduledef = [Strings,22,11,18]; ]
+    module Strings {
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 22; ]
+        <init> {
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 23; @position = 27; initialized = true; @symbol_vardef = [ColorLightGray,23,27,41]; @symbol_type<0> = [ResourceId,23,45,55]; ]
+        var ColorLightGray as ResourceId;
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 24; @position = 27; initialized = true; @symbol_vardef = [ColorBlue,24,27,36]; @symbol_type<0> = [ResourceId,24,40,50]; ]
+        var ColorBlue as ResourceId;
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 25; @position = 27; initialized = true; @symbol_vardef = [ColorRed,25,27,35]; @symbol_type<0> = [ResourceId,25,39,49]; ]
+        var ColorRed as ResourceId;
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 26; @position = 27; initialized = true; @symbol_vardef = [ForegroundColorTitle,26,27,47]; @symbol_type<0> = [ResourceId,26,51,61]; ]
+        var ForegroundColorTitle as ResourceId;
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 27; @position = 27; initialized = true; @symbol_vardef = [BackgroundColorTitle,27,27,47]; @symbol_type<0> = [ResourceId,27,51,61]; ]
+        var BackgroundColorTitle as ResourceId;
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 28; @position = 27; initialized = true; @symbol_vardef = [ColorDarkGray,28,27,40]; @symbol_type<0> = [ResourceId,28,44,54]; ]
+        var ColorDarkGray as ResourceId;
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 29; @position = 27; initialized = true; @symbol_vardef = [MilitaryFormatTitle,29,27,46]; @symbol_type<0> = [ResourceId,29,50,60]; ]
+        var MilitaryFormatTitle as ResourceId;
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 30; @position = 27; initialized = true; @symbol_vardef = [ColorBlack,30,27,37]; @symbol_type<0> = [ResourceId,30,41,51]; ]
+        var ColorBlack as ResourceId;
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 31; @position = 27; initialized = true; @symbol_vardef = [ColorWhite,31,27,37]; @symbol_type<0> = [ResourceId,31,41,51]; ]
+        var ColorWhite as ResourceId;
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 32; @position = 27; initialized = true; @symbol_vardef = [AppName,32,27,34]; @symbol_type<0> = [ResourceId,32,38,48]; ]
+        var AppName as ResourceId;
+    }
+    [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 35; @symbol_moduledef = [Styles,35,11,17]; ]
+    module Styles {
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 35; ]
+        <init> {
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 36; @symbol_moduledef = [prompt_font_enhanced_readability__body_with_title,36,15,64]; ]
+        module prompt_font_enhanced_readability__body_with_title {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 36; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 37; @position = 18; @symbol_constdef = [exclude,37,18,25]; @symbol_type<0> = [Boolean,37,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 40; @symbol_moduledef = [system_size__menu_header,40,15,39]; ]
+        module system_size__menu_header {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 40; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 41; @position = 18; @symbol_constdef = [width,41,18,23]; @symbol_type<0> = [Number,41,27,33]; ]
+            const width as Number = 454;
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 42; @position = 18; @symbol_constdef = [height,42,18,24]; @symbol_type<0> = [Number,42,28,34]; ]
+            const height as Number = 169;
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 45; @symbol_moduledef = [system_loc__hint_button_left_bottom,45,15,50]; ]
+        module system_loc__hint_button_left_bottom {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 45; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 46; @position = 18; @symbol_constdef = [x,46,18,19]; @symbol_type<0> = [Number,46,23,29]; ]
+            const x as Number = 15;
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 47; @position = 18; @symbol_constdef = [y,47,18,19]; @symbol_type<0> = [Number,47,23,29]; ]
+            const y as Number = 291;
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 50; @symbol_moduledef = [prompt_font_enhanced_readability__body_no_title,50,15,62]; ]
+        module prompt_font_enhanced_readability__body_no_title {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 50; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 51; @position = 18; @symbol_constdef = [exclude,51,18,25]; @symbol_type<0> = [Boolean,51,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 54; @symbol_moduledef = [prompt_loc__body_no_title,54,15,40]; ]
+        module prompt_loc__body_no_title {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 54; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 55; @position = 18; @symbol_constdef = [x,55,18,19]; @symbol_type<0> = [Number,55,23,29]; ]
+            const x as Number = 56;
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 56; @position = 18; @symbol_constdef = [y,56,18,19]; @symbol_type<0> = [Number,56,23,29]; ]
+            const y as Number = 89;
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 59; @symbol_moduledef = [system_icon_dark__about,59,15,38]; ]
+        module system_icon_dark__about {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 59; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 60; @position = 18; @symbol_constdef = [filename,60,18,26]; @symbol_type<0> = [String,60,30,36]; ]
+            const filename as String = "/Users/jansseni/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_dark__about.svg";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 61; @position = 18; @symbol_constdef = [compress,61,18,26]; @symbol_type<0> = [String,61,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 62; @position = 18; @symbol_constdef = [dithering,62,18,27]; @symbol_type<0> = [String,62,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 63; @position = 18; @symbol_constdef = [automaticPalette,63,18,34]; @symbol_type<0> = [String,63,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 64; @position = 18; @symbol_constdef = [packingFormat,64,18,31]; @symbol_type<0> = [String,64,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 67; @symbol_moduledef = [system_icon_light__question,67,15,42]; ]
+        module system_icon_light__question {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 67; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 68; @position = 18; @symbol_constdef = [filename,68,18,26]; @symbol_type<0> = [String,68,30,36]; ]
+            const filename as String = "/Users/jansseni/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_light__question.svg";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 69; @position = 18; @symbol_constdef = [compress,69,18,26]; @symbol_type<0> = [String,69,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 70; @position = 18; @symbol_constdef = [dithering,70,18,27]; @symbol_type<0> = [String,70,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 71; @position = 18; @symbol_constdef = [automaticPalette,71,18,34]; @symbol_type<0> = [String,71,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 72; @position = 18; @symbol_constdef = [packingFormat,72,18,31]; @symbol_type<0> = [String,72,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 75; @symbol_moduledef = [system_loc__hint_button_left_top,75,15,47]; ]
+        module system_loc__hint_button_left_top {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 75; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 76; @position = 18; @symbol_constdef = [exclude,76,18,25]; @symbol_type<0> = [Boolean,76,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 79; @symbol_moduledef = [prompt_font__title,79,15,33]; ]
+        module prompt_font__title {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 79; ]
+            <init> {
+[ "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen" 80 18 ]
+                symbol [ Graphics %tmp.64 80 34 42 ];
+                %tmp.64 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.65 80 43 62 ];
+                %tmp.65 = getv %tmp.64 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.66 80 63 71 ];
+                %tmp.66 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.67 80 72 92 ];
+                %tmp.67 = getv %tmp.66 :TEXT_JUSTIFY_VCENTER;
+                %tmp.68 = bitor %tmp.65 %tmp.67;
+                putv self :justification %tmp.68;
+[ "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen" 81 18 ]
+                symbol [ Graphics %tmp.69 81 25 33 ];
+                %tmp.69 = getm $.Toybox.Graphics;
+                symbol [ FONT_GLANCE_NUMBER %tmp.70 81 34 52 ];
+                %tmp.70 = getv %tmp.69 :FONT_GLANCE_NUMBER;
+                putv self :font %tmp.70;
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 80; @position = 18; @symbol_constdef = [justification,80,18,31]; ]
+            const justification;
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 81; @position = 18; @symbol_constdef = [font,81,18,22]; ]
+            const font;
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 84; @symbol_moduledef = [system_icon_dark__discard,84,15,40]; ]
+        module system_icon_dark__discard {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 84; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 85; @position = 18; @symbol_constdef = [filename,85,18,26]; @symbol_type<0> = [String,85,30,36]; ]
+            const filename as String = "/Users/jansseni/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_dark__discard.svg";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 86; @position = 18; @symbol_constdef = [compress,86,18,26]; @symbol_type<0> = [String,86,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 87; @position = 18; @symbol_constdef = [dithering,87,18,27]; @symbol_type<0> = [String,87,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 88; @position = 18; @symbol_constdef = [automaticPalette,88,18,34]; @symbol_type<0> = [String,88,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 89; @position = 18; @symbol_constdef = [packingFormat,89,18,31]; @symbol_type<0> = [String,89,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 92; @symbol_moduledef = [system_size__menu_item,92,15,37]; ]
+        module system_size__menu_item {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 92; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 93; @position = 18; @symbol_constdef = [width,93,18,23]; @symbol_type<0> = [Number,93,27,33]; ]
+            const width as Number = 454;
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 94; @position = 18; @symbol_constdef = [height,94,18,24]; @symbol_type<0> = [Number,94,28,34]; ]
+            const height as Number = 116;
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 97; @symbol_moduledef = [system_color_dark__text,97,15,38]; ]
+        module system_color_dark__text {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 97; ]
+            <init> {
+[ "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen" 99 18 ]
+                symbol [ Graphics %tmp.71 99 31 39 ];
+                %tmp.71 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.72 99 40 57 ];
+                %tmp.72 = getv %tmp.71 :COLOR_TRANSPARENT;
+                putv self :background %tmp.72;
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 98; @position = 18; @symbol_constdef = [color,98,18,23]; @symbol_type<0> = [Number,98,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 99; @position = 18; @symbol_constdef = [background,99,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 102; @symbol_moduledef = [system_icon_destructive__discard,102,15,47]; ]
+        module system_icon_destructive__discard {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 102; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 103; @position = 18; @symbol_constdef = [filename,103,18,26]; @symbol_type<0> = [String,103,30,36]; ]
+            const filename as String = "/Users/jansseni/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_destructive__discard.svg";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 104; @position = 18; @symbol_constdef = [dithering,104,18,27]; @symbol_type<0> = [String,104,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 105; @position = 18; @symbol_constdef = [packingFormat,105,18,31]; @symbol_type<0> = [String,105,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 108; @symbol_moduledef = [system_icon_dark__hint_action_menu,108,15,49]; ]
+        module system_icon_dark__hint_action_menu {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 108; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 109; @position = 18; @symbol_constdef = [filename,109,18,26]; @symbol_type<0> = [String,109,30,36]; ]
+            const filename as String = "/Users/jansseni/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_dark__hint_button_right_top.svg";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 110; @position = 18; @symbol_constdef = [dithering,110,18,27]; @symbol_type<0> = [String,110,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 111; @position = 18; @symbol_constdef = [packingFormat,111,18,31]; @symbol_type<0> = [String,111,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 114; @symbol_moduledef = [prompt_size__title,114,15,33]; ]
+        module prompt_size__title {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 114; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 115; @position = 18; @symbol_constdef = [width,115,18,23]; @symbol_type<0> = [Number,115,27,33]; ]
+            const width as Number = 360;
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 116; @position = 18; @symbol_constdef = [height,116,18,24]; @symbol_type<0> = [Number,116,28,34]; ]
+            const height as Number = 48;
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 119; @symbol_moduledef = [confirmation_font__body,119,15,38]; ]
+        module confirmation_font__body {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 119; ]
+            <init> {
+[ "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen" 120 18 ]
+                symbol [ Graphics %tmp.73 120 34 42 ];
+                %tmp.73 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.74 120 43 62 ];
+                %tmp.74 = getv %tmp.73 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.75 120 63 71 ];
+                %tmp.75 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.76 120 72 92 ];
+                %tmp.76 = getv %tmp.75 :TEXT_JUSTIFY_VCENTER;
+                %tmp.77 = bitor %tmp.74 %tmp.76;
+                putv self :justification %tmp.77;
+[ "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen" 121 18 ]
+                symbol [ Graphics %tmp.78 121 25 33 ];
+                %tmp.78 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.79 121 34 43 ];
+                %tmp.79 = getv %tmp.78 :FONT_TINY;
+                putv self :font %tmp.79;
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 120; @position = 18; @symbol_constdef = [justification,120,18,31]; ]
+            const justification;
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 121; @position = 18; @symbol_constdef = [font,121,18,22]; ]
+            const font;
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 124; @symbol_moduledef = [system_color_dark__background,124,15,44]; ]
+        module system_color_dark__background {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 124; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 125; @position = 18; @symbol_constdef = [color,125,18,23]; @symbol_type<0> = [Number,125,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 126; @position = 18; @symbol_constdef = [background,126,18,28]; @symbol_type<0> = [Number,126,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 129; @symbol_moduledef = [system_icon_destructive__hint_button_left_top,129,15,60]; ]
+        module system_icon_destructive__hint_button_left_top {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 129; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 130; @position = 18; @symbol_constdef = [filename,130,18,26]; @symbol_type<0> = [String,130,30,36]; ]
+            const filename as String = "/Users/jansseni/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_destructive__hint_button_left_top.svg";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 131; @position = 18; @symbol_constdef = [dithering,131,18,27]; @symbol_type<0> = [String,131,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 132; @position = 18; @symbol_constdef = [packingFormat,132,18,31]; @symbol_type<0> = [String,132,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 135; @symbol_moduledef = [system_size__launch_icon,135,15,39]; ]
+        module system_size__launch_icon {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 135; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 136; @position = 18; @symbol_constdef = [scaleX,136,18,24]; @symbol_type<0> = [Number,136,28,34]; ]
+            const scaleX as Number = 65;
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 137; @position = 18; @symbol_constdef = [scaleY,137,18,24]; @symbol_type<0> = [Number,137,28,34]; ]
+            const scaleY as Number = 65;
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 138; @position = 18; @symbol_constdef = [scaleRelativeTo,138,18,33]; @symbol_type<0> = [String,138,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 141; @symbol_moduledef = [confirmation_input__confirm,141,15,42]; ]
+        module confirmation_input__confirm {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 141; ]
+            <init> {
+[ "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen" 142 18 ]
+                symbol [ WatchUi %tmp.80 142 27 34 ];
+                %tmp.80 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.81 142 35 44 ];
+                %tmp.81 = getv %tmp.80 :KEY_ENTER;
+                putv self :button %tmp.81;
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 142; @position = 18; @symbol_constdef = [button,142,18,24]; ]
+            const button;
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 145; @symbol_moduledef = [prompt_font__body_with_title,145,15,43]; ]
+        module prompt_font__body_with_title {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 145; ]
+            <init> {
+[ "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen" 146 18 ]
+                symbol [ Graphics %tmp.82 146 34 42 ];
+                %tmp.82 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.83 146 43 62 ];
+                %tmp.83 = getv %tmp.82 :TEXT_JUSTIFY_CENTER;
+                putv self :justification %tmp.83;
+[ "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen" 147 18 ]
+                symbol [ Graphics %tmp.84 147 25 33 ];
+                %tmp.84 = getm $.Toybox.Graphics;
+                symbol [ FONT_XTINY %tmp.85 147 34 44 ];
+                %tmp.85 = getv %tmp.84 :FONT_XTINY;
+                putv self :font %tmp.85;
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 146; @position = 18; @symbol_constdef = [justification,146,18,31]; ]
+            const justification;
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 147; @position = 18; @symbol_constdef = [font,147,18,22]; ]
+            const font;
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 150; @symbol_moduledef = [confirmation_loc__body,150,15,37]; ]
+        module confirmation_loc__body {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 150; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 151; @position = 18; @symbol_constdef = [x,151,18,19]; @symbol_type<0> = [Number,151,23,29]; ]
+            const x as Number = 70;
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 152; @position = 18; @symbol_constdef = [y,152,18,19]; @symbol_type<0> = [Number,152,23,29]; ]
+            const y as Number = 70;
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 155; @symbol_moduledef = [system_icon_destructive__hint_button_left_bottom,155,15,63]; ]
+        module system_icon_destructive__hint_button_left_bottom {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 155; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 156; @position = 18; @symbol_constdef = [filename,156,18,26]; @symbol_type<0> = [String,156,30,36]; ]
+            const filename as String = "/Users/jansseni/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_destructive__hint_button_left_bottom.svg";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 157; @position = 18; @symbol_constdef = [dithering,157,18,27]; @symbol_type<0> = [String,157,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 158; @position = 18; @symbol_constdef = [packingFormat,158,18,31]; @symbol_type<0> = [String,158,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 161; @symbol_moduledef = [prompt_color_dark__background,161,15,44]; ]
+        module prompt_color_dark__background {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 161; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 162; @position = 18; @symbol_constdef = [color,162,18,23]; @symbol_type<0> = [Number,162,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 163; @position = 18; @symbol_constdef = [background,163,18,28]; @symbol_type<0> = [Number,163,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 166; @symbol_moduledef = [system_icon_destructive__hint_action_menu,166,15,56]; ]
+        module system_icon_destructive__hint_action_menu {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 166; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 167; @position = 18; @symbol_constdef = [filename,167,18,26]; @symbol_type<0> = [String,167,30,36]; ]
+            const filename as String = "/Users/jansseni/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 168; @position = 18; @symbol_constdef = [dithering,168,18,27]; @symbol_type<0> = [String,168,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 169; @position = 18; @symbol_constdef = [packingFormat,169,18,31]; @symbol_type<0> = [String,169,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 172; @symbol_moduledef = [system_loc__hint_action_menu,172,15,43]; ]
+        module system_loc__hint_action_menu {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 172; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 173; @position = 18; @symbol_constdef = [x,173,18,19]; @symbol_type<0> = [Number,173,23,29]; ]
+            const x as Number = 353;
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 174; @position = 18; @symbol_constdef = [y,174,18,19]; @symbol_type<0> = [Number,174,23,29]; ]
+            const y as Number = 77;
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 177; @symbol_moduledef = [confirmation_icon__hint_confirm,177,15,46]; ]
+        module confirmation_icon__hint_confirm {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 177; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 178; @position = 18; @symbol_constdef = [filename,178,18,26]; @symbol_type<0> = [String,178,30,36]; ]
+            const filename as String = "/Users/jansseni/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/confirmation_icon__hint_completion.svg";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 179; @position = 18; @symbol_constdef = [dithering,179,18,27]; @symbol_type<0> = [String,179,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 180; @position = 18; @symbol_constdef = [packingFormat,180,18,31]; @symbol_type<0> = [String,180,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 183; @symbol_moduledef = [system_loc__hint_button_left_middle,183,15,50]; ]
+        module system_loc__hint_button_left_middle {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 183; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 184; @position = 18; @symbol_constdef = [x,184,18,19]; @symbol_type<0> = [Number,184,23,29]; ]
+            const x as Number = 2;
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 185; @position = 18; @symbol_constdef = [y,185,18,19]; @symbol_type<0> = [Number,185,23,29]; ]
+            const y as Number = 181;
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 188; @symbol_moduledef = [prompt_size__body_no_title,188,15,41]; ]
+        module prompt_size__body_no_title {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 188; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 189; @position = 18; @symbol_constdef = [width,189,18,23]; @symbol_type<0> = [Number,189,27,33]; ]
+            const width as Number = 342;
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 190; @position = 18; @symbol_constdef = [height,190,18,24]; @symbol_type<0> = [Number,190,28,34]; ]
+            const height as Number = 275;
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 193; @symbol_moduledef = [system_icon_light__hint_button_left_top,193,15,54]; ]
+        module system_icon_light__hint_button_left_top {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 193; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 194; @position = 18; @symbol_constdef = [filename,194,18,26]; @symbol_type<0> = [String,194,30,36]; ]
+            const filename as String = "/Users/jansseni/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_light__hint_button_left_top.svg";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 195; @position = 18; @symbol_constdef = [dithering,195,18,27]; @symbol_type<0> = [String,195,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 196; @position = 18; @symbol_constdef = [packingFormat,196,18,31]; @symbol_type<0> = [String,196,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 199; @symbol_moduledef = [prompt_color_light__background,199,15,45]; ]
+        module prompt_color_light__background {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 199; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 200; @position = 18; @symbol_constdef = [color,200,18,23]; @symbol_type<0> = [Number,200,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 201; @position = 18; @symbol_constdef = [background,201,18,28]; @symbol_type<0> = [Number,201,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 204; @symbol_moduledef = [confirmation_input__delete,204,15,41]; ]
+        module confirmation_input__delete {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 204; ]
+            <init> {
+[ "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen" 205 18 ]
+                symbol [ WatchUi %tmp.86 205 27 34 ];
+                %tmp.86 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.87 205 35 44 ];
+                %tmp.87 = getv %tmp.86 :KEY_ENTER;
+                putv self :button %tmp.87;
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 205; @position = 18; @symbol_constdef = [button,205,18,24]; ]
+            const button;
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 208; @symbol_moduledef = [system_icon_dark__hint_button_left_top,208,15,53]; ]
+        module system_icon_dark__hint_button_left_top {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 208; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 209; @position = 18; @symbol_constdef = [filename,209,18,26]; @symbol_type<0> = [String,209,30,36]; ]
+            const filename as String = "/Users/jansseni/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_dark__hint_button_left_top.svg";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 210; @position = 18; @symbol_constdef = [dithering,210,18,27]; @symbol_type<0> = [String,210,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 211; @position = 18; @symbol_constdef = [packingFormat,211,18,31]; @symbol_type<0> = [String,211,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 214; @symbol_moduledef = [system_input__action_menu,214,15,40]; ]
+        module system_input__action_menu {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 214; ]
+            <init> {
+[ "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen" 215 18 ]
+                symbol [ WatchUi %tmp.88 215 27 34 ];
+                %tmp.88 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.89 215 35 44 ];
+                %tmp.89 = getv %tmp.88 :KEY_ENTER;
+                putv self :button %tmp.89;
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 215; @position = 18; @symbol_constdef = [button,215,18,24]; ]
+            const button;
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 218; @symbol_moduledef = [system_icon_light__save,218,15,38]; ]
+        module system_icon_light__save {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 218; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 219; @position = 18; @symbol_constdef = [filename,219,18,26]; @symbol_type<0> = [String,219,30,36]; ]
+            const filename as String = "/Users/jansseni/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_light__save.svg";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 220; @position = 18; @symbol_constdef = [compress,220,18,26]; @symbol_type<0> = [String,220,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 221; @position = 18; @symbol_constdef = [dithering,221,18,27]; @symbol_type<0> = [String,221,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 222; @position = 18; @symbol_constdef = [automaticPalette,222,18,34]; @symbol_type<0> = [String,222,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 223; @position = 18; @symbol_constdef = [packingFormat,223,18,31]; @symbol_type<0> = [String,223,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 226; @symbol_moduledef = [prompt_color_light__body,226,15,39]; ]
+        module prompt_color_light__body {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 226; ]
+            <init> {
+[ "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen" 228 18 ]
+                symbol [ Graphics %tmp.90 228 31 39 ];
+                %tmp.90 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.91 228 40 57 ];
+                %tmp.91 = getv %tmp.90 :COLOR_TRANSPARENT;
+                putv self :background %tmp.91;
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 227; @position = 18; @symbol_constdef = [color,227,18,23]; @symbol_type<0> = [Number,227,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 228; @position = 18; @symbol_constdef = [background,228,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 231; @symbol_moduledef = [system_loc__subwindow,231,15,36]; ]
+        module system_loc__subwindow {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 231; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 232; @position = 18; @symbol_constdef = [exclude,232,18,25]; @symbol_type<0> = [Boolean,232,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 235; @symbol_moduledef = [system_icon_light__warning,235,15,41]; ]
+        module system_icon_light__warning {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 235; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 236; @position = 18; @symbol_constdef = [filename,236,18,26]; @symbol_type<0> = [String,236,30,36]; ]
+            const filename as String = "/Users/jansseni/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_light__warning.svg";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 237; @position = 18; @symbol_constdef = [compress,237,18,26]; @symbol_type<0> = [String,237,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 238; @position = 18; @symbol_constdef = [dithering,238,18,27]; @symbol_type<0> = [String,238,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 239; @position = 18; @symbol_constdef = [automaticPalette,239,18,34]; @symbol_type<0> = [String,239,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 240; @position = 18; @symbol_constdef = [packingFormat,240,18,31]; @symbol_type<0> = [String,240,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 243; @symbol_moduledef = [confirmation_color_light__body,243,15,45]; ]
+        module confirmation_color_light__body {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 243; ]
+            <init> {
+[ "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen" 245 18 ]
+                symbol [ Graphics %tmp.92 245 31 39 ];
+                %tmp.92 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.93 245 40 57 ];
+                %tmp.93 = getv %tmp.92 :COLOR_TRANSPARENT;
+                putv self :background %tmp.93;
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 244; @position = 18; @symbol_constdef = [color,244,18,23]; @symbol_type<0> = [Number,244,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 245; @position = 18; @symbol_constdef = [background,245,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 248; @symbol_moduledef = [confirmation_icon_light__hint_keep,248,15,49]; ]
+        module confirmation_icon_light__hint_keep {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 248; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 249; @position = 18; @symbol_constdef = [filename,249,18,26]; @symbol_type<0> = [String,249,30,36]; ]
+            const filename as String = "/Users/jansseni/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/confirmation_icon__hint_keep.svg";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 250; @position = 18; @symbol_constdef = [dithering,250,18,27]; @symbol_type<0> = [String,250,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 251; @position = 18; @symbol_constdef = [packingFormat,251,18,31]; @symbol_type<0> = [String,251,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 254; @symbol_moduledef = [activity_color_light__background,254,15,47]; ]
+        module activity_color_light__background {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 254; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 255; @position = 18; @symbol_constdef = [color,255,18,23]; @symbol_type<0> = [Number,255,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 256; @position = 18; @symbol_constdef = [background,256,18,28]; @symbol_type<0> = [Number,256,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 259; @symbol_moduledef = [system_icon_positive__hint_button_right_top,259,15,58]; ]
+        module system_icon_positive__hint_button_right_top {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 259; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 260; @position = 18; @symbol_constdef = [filename,260,18,26]; @symbol_type<0> = [String,260,30,36]; ]
+            const filename as String = "/Users/jansseni/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_positive__hint_button_right_top.svg";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 261; @position = 18; @symbol_constdef = [dithering,261,18,27]; @symbol_type<0> = [String,261,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 262; @position = 18; @symbol_constdef = [packingFormat,262,18,31]; @symbol_type<0> = [String,262,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 265; @symbol_moduledef = [system_size__screen,265,15,34]; ]
+        module system_size__screen {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 265; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 266; @position = 18; @symbol_constdef = [width,266,18,23]; @symbol_type<0> = [Number,266,27,33]; ]
+            const width as Number = 454;
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 267; @position = 18; @symbol_constdef = [height,267,18,24]; @symbol_type<0> = [Number,267,28,34]; ]
+            const height as Number = 454;
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 270; @symbol_moduledef = [system_icon_destructive__hint_button_right_bottom,270,15,64]; ]
+        module system_icon_destructive__hint_button_right_bottom {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 270; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 271; @position = 18; @symbol_constdef = [filename,271,18,26]; @symbol_type<0> = [String,271,30,36]; ]
+            const filename as String = "/Users/jansseni/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_destructive__hint_button_right_bottom.svg";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 272; @position = 18; @symbol_constdef = [dithering,272,18,27]; @symbol_type<0> = [String,272,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 273; @position = 18; @symbol_constdef = [packingFormat,273,18,31]; @symbol_type<0> = [String,273,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 276; @symbol_moduledef = [system_color_light__background,276,15,45]; ]
+        module system_color_light__background {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 276; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 277; @position = 18; @symbol_constdef = [color,277,18,23]; @symbol_type<0> = [Number,277,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 278; @position = 18; @symbol_constdef = [background,278,18,28]; @symbol_type<0> = [Number,278,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 281; @symbol_moduledef = [system_icon_destructive__hint_button_right_top,281,15,61]; ]
+        module system_icon_destructive__hint_button_right_top {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 281; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 282; @position = 18; @symbol_constdef = [filename,282,18,26]; @symbol_type<0> = [String,282,30,36]; ]
+            const filename as String = "/Users/jansseni/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 283; @position = 18; @symbol_constdef = [dithering,283,18,27]; @symbol_type<0> = [String,283,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 284; @position = 18; @symbol_constdef = [packingFormat,284,18,31]; @symbol_type<0> = [String,284,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 287; @symbol_moduledef = [confirmation_loc__hint_confirm,287,15,45]; ]
+        module confirmation_loc__hint_confirm {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 287; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 288; @position = 18; @symbol_constdef = [x,288,18,19]; @symbol_type<0> = [Number,288,23,29]; ]
+            const x as Number = 353;
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 289; @position = 18; @symbol_constdef = [y,289,18,19]; @symbol_type<0> = [Number,289,23,29]; ]
+            const y as Number = 77;
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 292; @symbol_moduledef = [activity_color_dark__text,292,15,40]; ]
+        module activity_color_dark__text {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 292; ]
+            <init> {
+[ "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen" 294 18 ]
+                symbol [ Graphics %tmp.94 294 31 39 ];
+                %tmp.94 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.95 294 40 57 ];
+                %tmp.95 = getv %tmp.94 :COLOR_TRANSPARENT;
+                putv self :background %tmp.95;
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 293; @position = 18; @symbol_constdef = [color,293,18,23]; @symbol_type<0> = [Number,293,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 294; @position = 18; @symbol_constdef = [background,294,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 297; @symbol_moduledef = [confirmation_input__keep,297,15,39]; ]
+        module confirmation_input__keep {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 297; ]
+            <init> {
+[ "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen" 298 18 ]
+                symbol [ WatchUi %tmp.96 298 27 34 ];
+                %tmp.96 = getm $.Toybox.WatchUi;
+                symbol [ KEY_DOWN %tmp.97 298 35 43 ];
+                %tmp.97 = getv %tmp.96 :KEY_DOWN;
+                putv self :button %tmp.97;
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 298; @position = 18; @symbol_constdef = [button,298,18,24]; ]
+            const button;
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 301; @symbol_moduledef = [prompt_loc__body_with_title,301,15,42]; ]
+        module prompt_loc__body_with_title {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 301; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 302; @position = 18; @symbol_constdef = [x,302,18,19]; @symbol_type<0> = [Number,302,23,29]; ]
+            const x as Number = 58;
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 303; @position = 18; @symbol_constdef = [y,303,18,19]; @symbol_type<0> = [Number,303,23,29]; ]
+            const y as Number = 203;
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 306; @symbol_moduledef = [system_icon_dark__search,306,15,39]; ]
+        module system_icon_dark__search {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 306; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 307; @position = 18; @symbol_constdef = [filename,307,18,26]; @symbol_type<0> = [String,307,30,36]; ]
+            const filename as String = "/Users/jansseni/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_dark__search.svg";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 308; @position = 18; @symbol_constdef = [compress,308,18,26]; @symbol_type<0> = [String,308,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 309; @position = 18; @symbol_constdef = [dithering,309,18,27]; @symbol_type<0> = [String,309,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 310; @position = 18; @symbol_constdef = [automaticPalette,310,18,34]; @symbol_type<0> = [String,310,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 311; @position = 18; @symbol_constdef = [packingFormat,311,18,31]; @symbol_type<0> = [String,311,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 314; @symbol_moduledef = [activity_color_light__text,314,15,41]; ]
+        module activity_color_light__text {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 314; ]
+            <init> {
+[ "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen" 316 18 ]
+                symbol [ Graphics %tmp.98 316 31 39 ];
+                %tmp.98 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.99 316 40 57 ];
+                %tmp.99 = getv %tmp.98 :COLOR_TRANSPARENT;
+                putv self :background %tmp.99;
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 315; @position = 18; @symbol_constdef = [color,315,18,23]; @symbol_type<0> = [Number,315,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 316; @position = 18; @symbol_constdef = [background,316,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 319; @symbol_moduledef = [confirmation_icon__hint_keep,319,15,43]; ]
+        module confirmation_icon__hint_keep {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 319; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 320; @position = 18; @symbol_constdef = [filename,320,18,26]; @symbol_type<0> = [String,320,30,36]; ]
+            const filename as String = "/Users/jansseni/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/confirmation_icon__hint_keep.svg";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 321; @position = 18; @symbol_constdef = [dithering,321,18,27]; @symbol_type<0> = [String,321,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 322; @position = 18; @symbol_constdef = [packingFormat,322,18,31]; @symbol_type<0> = [String,322,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 325; @symbol_moduledef = [system_icon_dark__save,325,15,37]; ]
+        module system_icon_dark__save {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 325; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 326; @position = 18; @symbol_constdef = [filename,326,18,26]; @symbol_type<0> = [String,326,30,36]; ]
+            const filename as String = "/Users/jansseni/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_dark__save.svg";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 327; @position = 18; @symbol_constdef = [compress,327,18,26]; @symbol_type<0> = [String,327,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 328; @position = 18; @symbol_constdef = [dithering,328,18,27]; @symbol_type<0> = [String,328,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 329; @position = 18; @symbol_constdef = [automaticPalette,329,18,34]; @symbol_type<0> = [String,329,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 330; @position = 18; @symbol_constdef = [packingFormat,330,18,31]; @symbol_type<0> = [String,330,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 333; @symbol_moduledef = [system_icon_destructive__hint_button_left_middle,333,15,63]; ]
+        module system_icon_destructive__hint_button_left_middle {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 333; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 334; @position = 18; @symbol_constdef = [filename,334,18,26]; @symbol_type<0> = [String,334,30,36]; ]
+            const filename as String = "/Users/jansseni/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_destructive__hint_button_left_middle.svg";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 335; @position = 18; @symbol_constdef = [dithering,335,18,27]; @symbol_type<0> = [String,335,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 336; @position = 18; @symbol_constdef = [packingFormat,336,18,31]; @symbol_type<0> = [String,336,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 339; @symbol_moduledef = [system_icon_light__search,339,15,40]; ]
+        module system_icon_light__search {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 339; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 340; @position = 18; @symbol_constdef = [filename,340,18,26]; @symbol_type<0> = [String,340,30,36]; ]
+            const filename as String = "/Users/jansseni/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_light__search.svg";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 341; @position = 18; @symbol_constdef = [compress,341,18,26]; @symbol_type<0> = [String,341,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 342; @position = 18; @symbol_constdef = [dithering,342,18,27]; @symbol_type<0> = [String,342,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 343; @position = 18; @symbol_constdef = [automaticPalette,343,18,34]; @symbol_type<0> = [String,343,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 344; @position = 18; @symbol_constdef = [packingFormat,344,18,31]; @symbol_type<0> = [String,344,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 347; @symbol_moduledef = [system_icon_dark__hint_button_left_bottom,347,15,56]; ]
+        module system_icon_dark__hint_button_left_bottom {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 347; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 348; @position = 18; @symbol_constdef = [filename,348,18,26]; @symbol_type<0> = [String,348,30,36]; ]
+            const filename as String = "/Users/jansseni/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_dark__hint_button_left_bottom.svg";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 349; @position = 18; @symbol_constdef = [dithering,349,18,27]; @symbol_type<0> = [String,349,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 350; @position = 18; @symbol_constdef = [packingFormat,350,18,31]; @symbol_type<0> = [String,350,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 353; @symbol_moduledef = [system_icon_positive__hint_button_left_top,353,15,57]; ]
+        module system_icon_positive__hint_button_left_top {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 353; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 354; @position = 18; @symbol_constdef = [filename,354,18,26]; @symbol_type<0> = [String,354,30,36]; ]
+            const filename as String = "/Users/jansseni/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_positive__hint_button_left_top.svg";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 355; @position = 18; @symbol_constdef = [dithering,355,18,27]; @symbol_type<0> = [String,355,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 356; @position = 18; @symbol_constdef = [packingFormat,356,18,31]; @symbol_type<0> = [String,356,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 359; @symbol_moduledef = [system_loc__hint_button_right_bottom,359,15,51]; ]
+        module system_loc__hint_button_right_bottom {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 359; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 360; @position = 18; @symbol_constdef = [x,360,18,19]; @symbol_type<0> = [Number,360,23,29]; ]
+            const x as Number = 353;
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 361; @position = 18; @symbol_constdef = [y,361,18,19]; @symbol_type<0> = [Number,361,23,29]; ]
+            const y as Number = 291;
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 364; @symbol_moduledef = [confirmation_icon_dark__hint_reject,364,15,50]; ]
+        module confirmation_icon_dark__hint_reject {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 364; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 365; @position = 18; @symbol_constdef = [filename,365,18,26]; @symbol_type<0> = [String,365,30,36]; ]
+            const filename as String = "/Users/jansseni/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/confirmation_icon__hint_reject.svg";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 366; @position = 18; @symbol_constdef = [dithering,366,18,27]; @symbol_type<0> = [String,366,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 367; @position = 18; @symbol_constdef = [packingFormat,367,18,31]; @symbol_type<0> = [String,367,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 370; @symbol_moduledef = [confirmation_color_dark__body,370,15,44]; ]
+        module confirmation_color_dark__body {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 370; ]
+            <init> {
+[ "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen" 372 18 ]
+                symbol [ Graphics %tmp.100 372 31 39 ];
+                %tmp.100 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.101 372 40 57 ];
+                %tmp.101 = getv %tmp.100 :COLOR_TRANSPARENT;
+                putv self :background %tmp.101;
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 371; @position = 18; @symbol_constdef = [color,371,18,23]; @symbol_type<0> = [Number,371,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 372; @position = 18; @symbol_constdef = [background,372,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 375; @symbol_moduledef = [confirmation_icon_light__hint_confirm,375,15,52]; ]
+        module confirmation_icon_light__hint_confirm {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 375; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 376; @position = 18; @symbol_constdef = [filename,376,18,26]; @symbol_type<0> = [String,376,30,36]; ]
+            const filename as String = "/Users/jansseni/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/confirmation_icon__hint_completion.svg";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 377; @position = 18; @symbol_constdef = [dithering,377,18,27]; @symbol_type<0> = [String,377,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 378; @position = 18; @symbol_constdef = [packingFormat,378,18,31]; @symbol_type<0> = [String,378,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 381; @symbol_moduledef = [prompt_color_dark__title,381,15,39]; ]
+        module prompt_color_dark__title {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 381; ]
+            <init> {
+[ "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen" 383 18 ]
+                symbol [ Graphics %tmp.102 383 31 39 ];
+                %tmp.102 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.103 383 40 57 ];
+                %tmp.103 = getv %tmp.102 :COLOR_TRANSPARENT;
+                putv self :background %tmp.103;
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 382; @position = 18; @symbol_constdef = [color,382,18,23]; @symbol_type<0> = [Number,382,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 383; @position = 18; @symbol_constdef = [background,383,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 386; @symbol_moduledef = [system_icon_destructive__cancel,386,15,46]; ]
+        module system_icon_destructive__cancel {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 386; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 387; @position = 18; @symbol_constdef = [filename,387,18,26]; @symbol_type<0> = [String,387,30,36]; ]
+            const filename as String = "/Users/jansseni/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_destructive__cancel.svg";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 388; @position = 18; @symbol_constdef = [dithering,388,18,27]; @symbol_type<0> = [String,388,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 389; @position = 18; @symbol_constdef = [packingFormat,389,18,31]; @symbol_type<0> = [String,389,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 392; @symbol_moduledef = [system_icon_light__hint_button_right_bottom,392,15,58]; ]
+        module system_icon_light__hint_button_right_bottom {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 392; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 393; @position = 18; @symbol_constdef = [filename,393,18,26]; @symbol_type<0> = [String,393,30,36]; ]
+            const filename as String = "/Users/jansseni/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_light__hint_button_right_bottom.svg";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 394; @position = 18; @symbol_constdef = [dithering,394,18,27]; @symbol_type<0> = [String,394,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 395; @position = 18; @symbol_constdef = [packingFormat,395,18,31]; @symbol_type<0> = [String,395,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 398; @symbol_moduledef = [prompt_loc__title,398,15,32]; ]
+        module prompt_loc__title {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 398; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 399; @position = 18; @symbol_constdef = [x,399,18,19]; @symbol_type<0> = [Number,399,23,29]; ]
+            const x as Number = 47;
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 400; @position = 18; @symbol_constdef = [y,400,18,19]; @symbol_type<0> = [Number,400,23,29]; ]
+            const y as Number = 101;
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 403; @symbol_moduledef = [confirmation_font_enhanced_readability__body,403,15,59]; ]
+        module confirmation_font_enhanced_readability__body {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 403; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 404; @position = 18; @symbol_constdef = [exclude,404,18,25]; @symbol_type<0> = [Boolean,404,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 407; @symbol_moduledef = [prompt_color_light__title,407,15,40]; ]
+        module prompt_color_light__title {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 407; ]
+            <init> {
+[ "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen" 409 18 ]
+                symbol [ Graphics %tmp.104 409 31 39 ];
+                %tmp.104 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.105 409 40 57 ];
+                %tmp.105 = getv %tmp.104 :COLOR_TRANSPARENT;
+                putv self :background %tmp.105;
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 408; @position = 18; @symbol_constdef = [color,408,18,23]; @symbol_type<0> = [Number,408,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 409; @position = 18; @symbol_constdef = [background,409,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 412; @symbol_moduledef = [system_icon_dark__hint_button_right_top,412,15,54]; ]
+        module system_icon_dark__hint_button_right_top {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 412; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 413; @position = 18; @symbol_constdef = [filename,413,18,26]; @symbol_type<0> = [String,413,30,36]; ]
+            const filename as String = "/Users/jansseni/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_dark__hint_button_right_top.svg";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 414; @position = 18; @symbol_constdef = [dithering,414,18,27]; @symbol_type<0> = [String,414,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 415; @position = 18; @symbol_constdef = [packingFormat,415,18,31]; @symbol_type<0> = [String,415,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 418; @symbol_moduledef = [system_icon_dark__hint_button_left_middle,418,15,56]; ]
+        module system_icon_dark__hint_button_left_middle {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 418; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 419; @position = 18; @symbol_constdef = [filename,419,18,26]; @symbol_type<0> = [String,419,30,36]; ]
+            const filename as String = "/Users/jansseni/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_dark__hint_button_left_middle.svg";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 420; @position = 18; @symbol_constdef = [dithering,420,18,27]; @symbol_type<0> = [String,420,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 421; @position = 18; @symbol_constdef = [packingFormat,421,18,31]; @symbol_type<0> = [String,421,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 424; @symbol_moduledef = [confirmation_icon_dark__hint_keep,424,15,48]; ]
+        module confirmation_icon_dark__hint_keep {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 424; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 425; @position = 18; @symbol_constdef = [filename,425,18,26]; @symbol_type<0> = [String,425,30,36]; ]
+            const filename as String = "/Users/jansseni/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/confirmation_icon__hint_keep.svg";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 426; @position = 18; @symbol_constdef = [dithering,426,18,27]; @symbol_type<0> = [String,426,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 427; @position = 18; @symbol_constdef = [packingFormat,427,18,31]; @symbol_type<0> = [String,427,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 430; @symbol_moduledef = [system_icon_light__cancel,430,15,40]; ]
+        module system_icon_light__cancel {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 430; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 431; @position = 18; @symbol_constdef = [filename,431,18,26]; @symbol_type<0> = [String,431,30,36]; ]
+            const filename as String = "/Users/jansseni/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_light__cancel.svg";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 432; @position = 18; @symbol_constdef = [compress,432,18,26]; @symbol_type<0> = [String,432,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 433; @position = 18; @symbol_constdef = [dithering,433,18,27]; @symbol_type<0> = [String,433,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 434; @position = 18; @symbol_constdef = [automaticPalette,434,18,34]; @symbol_type<0> = [String,434,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 435; @position = 18; @symbol_constdef = [packingFormat,435,18,31]; @symbol_type<0> = [String,435,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 438; @symbol_moduledef = [confirmation_icon_light__hint_reject,438,15,51]; ]
+        module confirmation_icon_light__hint_reject {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 438; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 439; @position = 18; @symbol_constdef = [filename,439,18,26]; @symbol_type<0> = [String,439,30,36]; ]
+            const filename as String = "/Users/jansseni/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/confirmation_icon__hint_reject.svg";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 440; @position = 18; @symbol_constdef = [dithering,440,18,27]; @symbol_type<0> = [String,440,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 441; @position = 18; @symbol_constdef = [packingFormat,441,18,31]; @symbol_type<0> = [String,441,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 444; @symbol_moduledef = [system_icon_light__about,444,15,39]; ]
+        module system_icon_light__about {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 444; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 445; @position = 18; @symbol_constdef = [filename,445,18,26]; @symbol_type<0> = [String,445,30,36]; ]
+            const filename as String = "/Users/jansseni/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_light__about.svg";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 446; @position = 18; @symbol_constdef = [compress,446,18,26]; @symbol_type<0> = [String,446,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 447; @position = 18; @symbol_constdef = [dithering,447,18,27]; @symbol_type<0> = [String,447,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 448; @position = 18; @symbol_constdef = [automaticPalette,448,18,34]; @symbol_type<0> = [String,448,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 449; @position = 18; @symbol_constdef = [packingFormat,449,18,31]; @symbol_type<0> = [String,449,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 452; @symbol_moduledef = [system_size__toast_icon,452,15,38]; ]
+        module system_size__toast_icon {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 452; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 453; @position = 18; @symbol_constdef = [scaleX,453,18,24]; @symbol_type<0> = [Number,453,28,34]; ]
+            const scaleX as Number = 59;
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 454; @position = 18; @symbol_constdef = [scaleY,454,18,24]; @symbol_type<0> = [Number,454,28,34]; ]
+            const scaleY as Number = 59;
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 455; @position = 18; @symbol_constdef = [scaleRelativeTo,455,18,33]; @symbol_type<0> = [String,455,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 458; @symbol_moduledef = [system_icon_dark__hint_button_right_middle,458,15,57]; ]
+        module system_icon_dark__hint_button_right_middle {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 458; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 459; @position = 18; @symbol_constdef = [exclude,459,18,25]; @symbol_type<0> = [Boolean,459,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 462; @symbol_moduledef = [confirmation_icon__hint_reject,462,15,45]; ]
+        module confirmation_icon__hint_reject {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 462; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 463; @position = 18; @symbol_constdef = [filename,463,18,26]; @symbol_type<0> = [String,463,30,36]; ]
+            const filename as String = "/Users/jansseni/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/confirmation_icon__hint_reject.svg";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 464; @position = 18; @symbol_constdef = [dithering,464,18,27]; @symbol_type<0> = [String,464,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 465; @position = 18; @symbol_constdef = [packingFormat,465,18,31]; @symbol_type<0> = [String,465,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 468; @symbol_moduledef = [system_icon_light__hint_action_menu,468,15,50]; ]
+        module system_icon_light__hint_action_menu {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 468; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 469; @position = 18; @symbol_constdef = [filename,469,18,26]; @symbol_type<0> = [String,469,30,36]; ]
+            const filename as String = "/Users/jansseni/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_light__hint_button_right_top.svg";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 470; @position = 18; @symbol_constdef = [dithering,470,18,27]; @symbol_type<0> = [String,470,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 471; @position = 18; @symbol_constdef = [packingFormat,471,18,31]; @symbol_type<0> = [String,471,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 474; @symbol_moduledef = [system_icon_light__hint_button_right_middle,474,15,58]; ]
+        module system_icon_light__hint_button_right_middle {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 474; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 475; @position = 18; @symbol_constdef = [exclude,475,18,25]; @symbol_type<0> = [Boolean,475,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 478; @symbol_moduledef = [system_icon_destructive__hint_button_right_middle,478,15,64]; ]
+        module system_icon_destructive__hint_button_right_middle {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 478; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 479; @position = 18; @symbol_constdef = [exclude,479,18,25]; @symbol_type<0> = [Boolean,479,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 482; @symbol_moduledef = [confirmation_loc__hint_reject,482,15,44]; ]
+        module confirmation_loc__hint_reject {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 482; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 483; @position = 18; @symbol_constdef = [x,483,18,19]; @symbol_type<0> = [Number,483,23,29]; ]
+            const x as Number = 15;
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 484; @position = 18; @symbol_constdef = [y,484,18,19]; @symbol_type<0> = [Number,484,23,29]; ]
+            const y as Number = 291;
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 487; @symbol_moduledef = [confirmation_icon_dark__hint_delete,487,15,50]; ]
+        module confirmation_icon_dark__hint_delete {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 487; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 488; @position = 18; @symbol_constdef = [filename,488,18,26]; @symbol_type<0> = [String,488,30,36]; ]
+            const filename as String = "/Users/jansseni/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/confirmation_icon__hint_delete.svg";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 489; @position = 18; @symbol_constdef = [dithering,489,18,27]; @symbol_type<0> = [String,489,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 490; @position = 18; @symbol_constdef = [packingFormat,490,18,31]; @symbol_type<0> = [String,490,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 493; @symbol_moduledef = [activity_color_dark__background,493,15,46]; ]
+        module activity_color_dark__background {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 493; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 494; @position = 18; @symbol_constdef = [color,494,18,23]; @symbol_type<0> = [Number,494,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 495; @position = 18; @symbol_constdef = [background,495,18,28]; @symbol_type<0> = [Number,495,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 498; @symbol_moduledef = [system_icon_light__hint_button_left_bottom,498,15,57]; ]
+        module system_icon_light__hint_button_left_bottom {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 498; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 499; @position = 18; @symbol_constdef = [filename,499,18,26]; @symbol_type<0> = [String,499,30,36]; ]
+            const filename as String = "/Users/jansseni/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_light__hint_button_left_bottom.svg";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 500; @position = 18; @symbol_constdef = [dithering,500,18,27]; @symbol_type<0> = [String,500,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 501; @position = 18; @symbol_constdef = [packingFormat,501,18,31]; @symbol_type<0> = [String,501,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 504; @symbol_moduledef = [system_icon_positive__hint_button_left_middle,504,15,60]; ]
+        module system_icon_positive__hint_button_left_middle {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 504; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 505; @position = 18; @symbol_constdef = [filename,505,18,26]; @symbol_type<0> = [String,505,30,36]; ]
+            const filename as String = "/Users/jansseni/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_positive__hint_button_left_middle.svg";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 506; @position = 18; @symbol_constdef = [dithering,506,18,27]; @symbol_type<0> = [String,506,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 507; @position = 18; @symbol_constdef = [packingFormat,507,18,31]; @symbol_type<0> = [String,507,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 510; @symbol_moduledef = [system_size__menu_icon,510,15,37]; ]
+        module system_size__menu_icon {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 510; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 511; @position = 18; @symbol_constdef = [scaleX,511,18,24]; @symbol_type<0> = [Number,511,28,34]; ]
+            const scaleX as Number = 74;
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 512; @position = 18; @symbol_constdef = [scaleY,512,18,24]; @symbol_type<0> = [Number,512,28,34]; ]
+            const scaleY as Number = 114;
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 513; @position = 18; @symbol_constdef = [scaleRelativeTo,513,18,33]; @symbol_type<0> = [String,513,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 516; @symbol_moduledef = [system_icon_destructive__warning,516,15,47]; ]
+        module system_icon_destructive__warning {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 516; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 517; @position = 18; @symbol_constdef = [filename,517,18,26]; @symbol_type<0> = [String,517,30,36]; ]
+            const filename as String = "/Users/jansseni/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_destructive__warning.svg";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 518; @position = 18; @symbol_constdef = [dithering,518,18,27]; @symbol_type<0> = [String,518,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 519; @position = 18; @symbol_constdef = [packingFormat,519,18,31]; @symbol_type<0> = [String,519,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 522; @symbol_moduledef = [system_loc__hint_button_right_middle,522,15,51]; ]
+        module system_loc__hint_button_right_middle {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 522; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 523; @position = 18; @symbol_constdef = [exclude,523,18,25]; @symbol_type<0> = [Boolean,523,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 526; @symbol_moduledef = [system_icon_dark__cancel,526,15,39]; ]
+        module system_icon_dark__cancel {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 526; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 527; @position = 18; @symbol_constdef = [filename,527,18,26]; @symbol_type<0> = [String,527,30,36]; ]
+            const filename as String = "/Users/jansseni/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_dark__cancel.svg";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 528; @position = 18; @symbol_constdef = [compress,528,18,26]; @symbol_type<0> = [String,528,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 529; @position = 18; @symbol_constdef = [dithering,529,18,27]; @symbol_type<0> = [String,529,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 530; @position = 18; @symbol_constdef = [automaticPalette,530,18,34]; @symbol_type<0> = [String,530,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 531; @position = 18; @symbol_constdef = [packingFormat,531,18,31]; @symbol_type<0> = [String,531,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 534; @symbol_moduledef = [prompt_size__body_with_title,534,15,43]; ]
+        module prompt_size__body_with_title {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 534; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 535; @position = 18; @symbol_constdef = [width,535,18,23]; @symbol_type<0> = [Number,535,27,33]; ]
+            const width as Number = 338;
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 536; @position = 18; @symbol_constdef = [height,536,18,24]; @symbol_type<0> = [Number,536,28,34]; ]
+            const height as Number = 173;
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 539; @symbol_moduledef = [system_loc__hint_button_right_top,539,15,48]; ]
+        module system_loc__hint_button_right_top {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 539; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 540; @position = 18; @symbol_constdef = [x,540,18,19]; @symbol_type<0> = [Number,540,23,29]; ]
+            const x as Number = 353;
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 541; @position = 18; @symbol_constdef = [y,541,18,19]; @symbol_type<0> = [Number,541,23,29]; ]
+            const y as Number = 77;
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 544; @symbol_moduledef = [system_color_light__text,544,15,39]; ]
+        module system_color_light__text {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 544; ]
+            <init> {
+[ "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen" 546 18 ]
+                symbol [ Graphics %tmp.106 546 31 39 ];
+                %tmp.106 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.107 546 40 57 ];
+                %tmp.107 = getv %tmp.106 :COLOR_TRANSPARENT;
+                putv self :background %tmp.107;
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 545; @position = 18; @symbol_constdef = [color,545,18,23]; @symbol_type<0> = [Number,545,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 546; @position = 18; @symbol_constdef = [background,546,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 549; @symbol_moduledef = [system_icon_light__check,549,15,39]; ]
+        module system_icon_light__check {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 549; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 550; @position = 18; @symbol_constdef = [filename,550,18,26]; @symbol_type<0> = [String,550,30,36]; ]
+            const filename as String = "/Users/jansseni/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_light__check.svg";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 551; @position = 18; @symbol_constdef = [compress,551,18,26]; @symbol_type<0> = [String,551,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 552; @position = 18; @symbol_constdef = [dithering,552,18,27]; @symbol_type<0> = [String,552,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 553; @position = 18; @symbol_constdef = [automaticPalette,553,18,34]; @symbol_type<0> = [String,553,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 554; @position = 18; @symbol_constdef = [packingFormat,554,18,31]; @symbol_type<0> = [String,554,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 557; @symbol_moduledef = [confirmation_input__reject,557,15,41]; ]
+        module confirmation_input__reject {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 557; ]
+            <init> {
+[ "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen" 558 18 ]
+                symbol [ WatchUi %tmp.108 558 27 34 ];
+                %tmp.108 = getm $.Toybox.WatchUi;
+                symbol [ KEY_DOWN %tmp.109 558 35 43 ];
+                %tmp.109 = getv %tmp.108 :KEY_DOWN;
+                putv self :button %tmp.109;
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 558; @position = 18; @symbol_constdef = [button,558,18,24]; ]
+            const button;
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 561; @symbol_moduledef = [system_icon_light__revert,561,15,40]; ]
+        module system_icon_light__revert {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 561; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 562; @position = 18; @symbol_constdef = [filename,562,18,26]; @symbol_type<0> = [String,562,30,36]; ]
+            const filename as String = "/Users/jansseni/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_light__revert.svg";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 563; @position = 18; @symbol_constdef = [compress,563,18,26]; @symbol_type<0> = [String,563,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 564; @position = 18; @symbol_constdef = [dithering,564,18,27]; @symbol_type<0> = [String,564,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 565; @position = 18; @symbol_constdef = [automaticPalette,565,18,34]; @symbol_type<0> = [String,565,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 566; @position = 18; @symbol_constdef = [packingFormat,566,18,31]; @symbol_type<0> = [String,566,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 569; @symbol_moduledef = [system_size__subwindow,569,15,37]; ]
+        module system_size__subwindow {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 569; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 570; @position = 18; @symbol_constdef = [exclude,570,18,25]; @symbol_type<0> = [Boolean,570,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 573; @symbol_moduledef = [system_icon_positive__hint_button_left_bottom,573,15,60]; ]
+        module system_icon_positive__hint_button_left_bottom {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 573; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 574; @position = 18; @symbol_constdef = [filename,574,18,26]; @symbol_type<0> = [String,574,30,36]; ]
+            const filename as String = "/Users/jansseni/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_positive__hint_button_left_bottom.svg";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 575; @position = 18; @symbol_constdef = [dithering,575,18,27]; @symbol_type<0> = [String,575,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 576; @position = 18; @symbol_constdef = [packingFormat,576,18,31]; @symbol_type<0> = [String,576,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 579; @symbol_moduledef = [system_icon_dark__check,579,15,38]; ]
+        module system_icon_dark__check {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 579; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 580; @position = 18; @symbol_constdef = [filename,580,18,26]; @symbol_type<0> = [String,580,30,36]; ]
+            const filename as String = "/Users/jansseni/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_dark__check.svg";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 581; @position = 18; @symbol_constdef = [compress,581,18,26]; @symbol_type<0> = [String,581,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 582; @position = 18; @symbol_constdef = [dithering,582,18,27]; @symbol_type<0> = [String,582,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 583; @position = 18; @symbol_constdef = [automaticPalette,583,18,34]; @symbol_type<0> = [String,583,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 584; @position = 18; @symbol_constdef = [packingFormat,584,18,31]; @symbol_type<0> = [String,584,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 587; @symbol_moduledef = [confirmation_loc__hint_keep,587,15,42]; ]
+        module confirmation_loc__hint_keep {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 587; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 588; @position = 18; @symbol_constdef = [x,588,18,19]; @symbol_type<0> = [Number,588,23,29]; ]
+            const x as Number = 15;
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 589; @position = 18; @symbol_constdef = [y,589,18,19]; @symbol_type<0> = [Number,589,23,29]; ]
+            const y as Number = 291;
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 592; @symbol_moduledef = [confirmation_loc__hint_delete,592,15,44]; ]
+        module confirmation_loc__hint_delete {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 592; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 593; @position = 18; @symbol_constdef = [x,593,18,19]; @symbol_type<0> = [Number,593,23,29]; ]
+            const x as Number = 353;
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 594; @position = 18; @symbol_constdef = [y,594,18,19]; @symbol_type<0> = [Number,594,23,29]; ]
+            const y as Number = 77;
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 597; @symbol_moduledef = [system_icon_positive__hint_action_menu,597,15,53]; ]
+        module system_icon_positive__hint_action_menu {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 597; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 598; @position = 18; @symbol_constdef = [filename,598,18,26]; @symbol_type<0> = [String,598,30,36]; ]
+            const filename as String = "/Users/jansseni/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_positive__hint_button_right_top.svg";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 599; @position = 18; @symbol_constdef = [dithering,599,18,27]; @symbol_type<0> = [String,599,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 600; @position = 18; @symbol_constdef = [packingFormat,600,18,31]; @symbol_type<0> = [String,600,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 603; @symbol_moduledef = [system_icon_positive__hint_button_right_middle,603,15,61]; ]
+        module system_icon_positive__hint_button_right_middle {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 603; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 604; @position = 18; @symbol_constdef = [exclude,604,18,25]; @symbol_type<0> = [Boolean,604,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 607; @symbol_moduledef = [system_icon_light__hint_button_left_middle,607,15,57]; ]
+        module system_icon_light__hint_button_left_middle {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 607; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 608; @position = 18; @symbol_constdef = [filename,608,18,26]; @symbol_type<0> = [String,608,30,36]; ]
+            const filename as String = "/Users/jansseni/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_light__hint_button_left_middle.svg";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 609; @position = 18; @symbol_constdef = [dithering,609,18,27]; @symbol_type<0> = [String,609,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 610; @position = 18; @symbol_constdef = [packingFormat,610,18,31]; @symbol_type<0> = [String,610,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 613; @symbol_moduledef = [system_icon_dark__hint_button_right_bottom,613,15,57]; ]
+        module system_icon_dark__hint_button_right_bottom {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 613; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 614; @position = 18; @symbol_constdef = [filename,614,18,26]; @symbol_type<0> = [String,614,30,36]; ]
+            const filename as String = "/Users/jansseni/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_dark__hint_button_right_bottom.svg";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 615; @position = 18; @symbol_constdef = [dithering,615,18,27]; @symbol_type<0> = [String,615,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 616; @position = 18; @symbol_constdef = [packingFormat,616,18,31]; @symbol_type<0> = [String,616,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 619; @symbol_moduledef = [system_icon_positive__hint_button_right_bottom,619,15,61]; ]
+        module system_icon_positive__hint_button_right_bottom {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 619; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 620; @position = 18; @symbol_constdef = [filename,620,18,26]; @symbol_type<0> = [String,620,30,36]; ]
+            const filename as String = "/Users/jansseni/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_positive__hint_button_right_bottom.svg";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 621; @position = 18; @symbol_constdef = [dithering,621,18,27]; @symbol_type<0> = [String,621,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 622; @position = 18; @symbol_constdef = [packingFormat,622,18,31]; @symbol_type<0> = [String,622,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 625; @symbol_moduledef = [system_icon_dark__revert,625,15,39]; ]
+        module system_icon_dark__revert {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 625; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 626; @position = 18; @symbol_constdef = [filename,626,18,26]; @symbol_type<0> = [String,626,30,36]; ]
+            const filename as String = "/Users/jansseni/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_dark__revert.svg";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 627; @position = 18; @symbol_constdef = [compress,627,18,26]; @symbol_type<0> = [String,627,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 628; @position = 18; @symbol_constdef = [dithering,628,18,27]; @symbol_type<0> = [String,628,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 629; @position = 18; @symbol_constdef = [automaticPalette,629,18,34]; @symbol_type<0> = [String,629,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 630; @position = 18; @symbol_constdef = [packingFormat,630,18,31]; @symbol_type<0> = [String,630,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 633; @symbol_moduledef = [confirmation_icon_light__hint_delete,633,15,51]; ]
+        module confirmation_icon_light__hint_delete {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 633; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 634; @position = 18; @symbol_constdef = [filename,634,18,26]; @symbol_type<0> = [String,634,30,36]; ]
+            const filename as String = "/Users/jansseni/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/confirmation_icon__hint_delete.svg";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 635; @position = 18; @symbol_constdef = [dithering,635,18,27]; @symbol_type<0> = [String,635,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 636; @position = 18; @symbol_constdef = [packingFormat,636,18,31]; @symbol_type<0> = [String,636,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 639; @symbol_moduledef = [system_icon_dark__question,639,15,41]; ]
+        module system_icon_dark__question {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 639; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 640; @position = 18; @symbol_constdef = [filename,640,18,26]; @symbol_type<0> = [String,640,30,36]; ]
+            const filename as String = "/Users/jansseni/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_dark__question.svg";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 641; @position = 18; @symbol_constdef = [compress,641,18,26]; @symbol_type<0> = [String,641,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 642; @position = 18; @symbol_constdef = [dithering,642,18,27]; @symbol_type<0> = [String,642,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 643; @position = 18; @symbol_constdef = [automaticPalette,643,18,34]; @symbol_type<0> = [String,643,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 644; @position = 18; @symbol_constdef = [packingFormat,644,18,31]; @symbol_type<0> = [String,644,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 647; @symbol_moduledef = [system_icon_light__discard,647,15,41]; ]
+        module system_icon_light__discard {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 647; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 648; @position = 18; @symbol_constdef = [filename,648,18,26]; @symbol_type<0> = [String,648,30,36]; ]
+            const filename as String = "/Users/jansseni/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_light__discard.svg";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 649; @position = 18; @symbol_constdef = [compress,649,18,26]; @symbol_type<0> = [String,649,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 650; @position = 18; @symbol_constdef = [dithering,650,18,27]; @symbol_type<0> = [String,650,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 651; @position = 18; @symbol_constdef = [automaticPalette,651,18,34]; @symbol_type<0> = [String,651,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 652; @position = 18; @symbol_constdef = [packingFormat,652,18,31]; @symbol_type<0> = [String,652,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 655; @symbol_moduledef = [device_info,655,15,26]; ]
+        module device_info {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 655; ]
+            <init> {
+[ "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen" 657 18 ]
+                symbol [ Toybox %tmp.111 657 32 38 ];
+                %tmp.111 = getv ? :Toybox;
+                symbol [ System %tmp.112 657 39 45 ];
+                %tmp.112 = getv %tmp.111 :System;
+                symbol [ SCREEN_SHAPE_ROUND %tmp.113 657 46 64 ];
+                %tmp.113 = getv %tmp.112 :SCREEN_SHAPE_ROUND;
+                putv self :screenShape %tmp.113;
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 656; @position = 18; @symbol_constdef = [screenWidth,656,18,29]; @symbol_type<0> = [Number,656,33,39]; ]
+            const screenWidth as Number = 454;
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 657; @position = 18; @symbol_constdef = [screenShape,657,18,29]; ]
+            const screenShape;
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 658; @position = 18; @symbol_constdef = [hasNightMode,658,18,30]; @symbol_type<0> = [Boolean,658,34,41]; ]
+            const hasNightMode as Boolean = false;
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 659; @position = 18; @symbol_constdef = [hasGpu,659,18,24]; @symbol_type<0> = [Boolean,659,28,35]; ]
+            const hasGpu as Boolean = true;
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 660; @position = 18; @symbol_constdef = [screenHeight,660,18,30]; @symbol_type<0> = [Number,660,34,40]; ]
+            const screenHeight as Number = 454;
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 661; @position = 18; @symbol_constdef = [hasTouchScreen,661,18,32]; @symbol_type<0> = [Boolean,661,36,43]; ]
+            const hasTouchScreen as Boolean = true;
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 662; @position = 18; @symbol_constdef = [hasEnhancedReadabilityMode,662,18,44]; @symbol_type<0> = [Boolean,662,48,55]; ]
+            const hasEnhancedReadabilityMode as Boolean = false;
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 665; @symbol_moduledef = [confirmation_icon_dark__hint_confirm,665,15,51]; ]
+        module confirmation_icon_dark__hint_confirm {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 665; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 666; @position = 18; @symbol_constdef = [filename,666,18,26]; @symbol_type<0> = [String,666,30,36]; ]
+            const filename as String = "/Users/jansseni/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/confirmation_icon__hint_completion.svg";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 667; @position = 18; @symbol_constdef = [dithering,667,18,27]; @symbol_type<0> = [String,667,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 668; @position = 18; @symbol_constdef = [packingFormat,668,18,31]; @symbol_type<0> = [String,668,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 671; @symbol_moduledef = [prompt_font__body_no_title,671,15,41]; ]
+        module prompt_font__body_no_title {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 671; ]
+            <init> {
+[ "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen" 672 18 ]
+                symbol [ Graphics %tmp.114 672 34 42 ];
+                %tmp.114 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.115 672 43 62 ];
+                %tmp.115 = getv %tmp.114 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.116 672 63 71 ];
+                %tmp.116 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.117 672 72 92 ];
+                %tmp.117 = getv %tmp.116 :TEXT_JUSTIFY_VCENTER;
+                %tmp.118 = bitor %tmp.115 %tmp.117;
+                putv self :justification %tmp.118;
+[ "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen" 673 18 ]
+                symbol [ Graphics %tmp.119 673 25 33 ];
+                %tmp.119 = getm $.Toybox.Graphics;
+                symbol [ FONT_XTINY %tmp.120 673 34 44 ];
+                %tmp.120 = getv %tmp.119 :FONT_XTINY;
+                putv self :font %tmp.120;
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 672; @position = 18; @symbol_constdef = [justification,672,18,31]; ]
+            const justification;
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 673; @position = 18; @symbol_constdef = [font,673,18,22]; ]
+            const font;
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 676; @symbol_moduledef = [prompt_size__title_icon,676,15,38]; ]
+        module prompt_size__title_icon {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 676; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 677; @position = 18; @symbol_constdef = [scaleX,677,18,24]; @symbol_type<0> = [Float,677,28,33]; ]
+            const scaleX as Float = 0.15;
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 678; @position = 18; @symbol_constdef = [scaleRelativeTo,678,18,33]; @symbol_type<0> = [String,678,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 681; @symbol_moduledef = [system_icon_dark__warning,681,15,40]; ]
+        module system_icon_dark__warning {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 681; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 682; @position = 18; @symbol_constdef = [filename,682,18,26]; @symbol_type<0> = [String,682,30,36]; ]
+            const filename as String = "/Users/jansseni/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_dark__warning.svg";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 683; @position = 18; @symbol_constdef = [compress,683,18,26]; @symbol_type<0> = [String,683,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 684; @position = 18; @symbol_constdef = [dithering,684,18,27]; @symbol_type<0> = [String,684,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 685; @position = 18; @symbol_constdef = [automaticPalette,685,18,34]; @symbol_type<0> = [String,685,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 686; @position = 18; @symbol_constdef = [packingFormat,686,18,31]; @symbol_type<0> = [String,686,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 689; @symbol_moduledef = [prompt_loc__title_icon,689,15,37]; ]
+        module prompt_loc__title_icon {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 689; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 690; @position = 18; @symbol_constdef = [x,690,18,19]; @symbol_type<0> = [Number,690,23,29]; ]
+            const x as Number = 227;
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 691; @position = 18; @symbol_constdef = [y,691,18,19]; @symbol_type<0> = [Number,691,23,29]; ]
+            const y as Number = 148;
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 692; @position = 18; @symbol_constdef = [horizontalJustification,692,18,41]; @symbol_type<0> = [String,692,45,51]; ]
+            const horizontalJustification as String = "center";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 693; @position = 18; @symbol_constdef = [verticalJustification,693,18,39]; @symbol_type<0> = [String,693,43,49]; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 696; @symbol_moduledef = [prompt_font_enhanced_readability__title,696,15,54]; ]
+        module prompt_font_enhanced_readability__title {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 696; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 697; @position = 18; @symbol_constdef = [exclude,697,18,25]; @symbol_type<0> = [Boolean,697,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 700; @symbol_moduledef = [prompt_color_dark__body,700,15,38]; ]
+        module prompt_color_dark__body {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 700; ]
+            <init> {
+[ "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen" 702 18 ]
+                symbol [ Graphics %tmp.121 702 31 39 ];
+                %tmp.121 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.122 702 40 57 ];
+                %tmp.122 = getv %tmp.121 :COLOR_TRANSPARENT;
+                putv self :background %tmp.122;
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 701; @position = 18; @symbol_constdef = [color,701,18,23]; @symbol_type<0> = [Number,701,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 702; @position = 18; @symbol_constdef = [background,702,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 705; @symbol_moduledef = [confirmation_icon__hint_delete,705,15,45]; ]
+        module confirmation_icon__hint_delete {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 705; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 706; @position = 18; @symbol_constdef = [filename,706,18,26]; @symbol_type<0> = [String,706,30,36]; ]
+            const filename as String = "/Users/jansseni/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/confirmation_icon__hint_delete.svg";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 707; @position = 18; @symbol_constdef = [dithering,707,18,27]; @symbol_type<0> = [String,707,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 708; @position = 18; @symbol_constdef = [packingFormat,708,18,31]; @symbol_type<0> = [String,708,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 711; @symbol_moduledef = [system_icon_light__hint_button_right_top,711,15,55]; ]
+        module system_icon_light__hint_button_right_top {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 711; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 712; @position = 18; @symbol_constdef = [filename,712,18,26]; @symbol_type<0> = [String,712,30,36]; ]
+            const filename as String = "/Users/jansseni/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_light__hint_button_right_top.svg";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 713; @position = 18; @symbol_constdef = [dithering,713,18,27]; @symbol_type<0> = [String,713,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 714; @position = 18; @symbol_constdef = [packingFormat,714,18,31]; @symbol_type<0> = [String,714,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 717; @symbol_moduledef = [confirmation_size__body,717,15,38]; ]
+        module confirmation_size__body {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 717; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 718; @position = 18; @symbol_constdef = [width,718,18,23]; @symbol_type<0> = [Number,718,27,33]; ]
+            const width as Number = 313;
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 719; @position = 18; @symbol_constdef = [height,719,18,24]; @symbol_type<0> = [Number,719,28,34]; ]
+            const height as Number = 313;
+        }
+        [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 722; @symbol_moduledef = [system_icon_positive__check,722,15,42]; ]
+        module system_icon_positive__check {
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 722; ]
+            <init> {
+            }
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 723; @position = 18; @symbol_constdef = [filename,723,18,26]; @symbol_type<0> = [String,723,30,36]; ]
+            const filename as String = "/Users/jansseni/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_positive__check.svg";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 724; @position = 18; @symbol_constdef = [dithering,724,18,27]; @symbol_type<0> = [String,724,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 725; @position = 18; @symbol_constdef = [packingFormat,725,18,31]; @symbol_type<0> = [String,725,35,41]; ]
+            const packingFormat as String = "png";
+        }
+    }
+}
+[ @file = "/Users/jansseni/amazon/code/garmin/track-garmin-watchface/bin/gen/006-B4536-00/source/Rez.mcgen"; @line = 1; ]
+<init> {
+}
